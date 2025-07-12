@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Георгий Селиванов | Резюме</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto+Slab:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #4361ee;
+            --primary-dark: #3a56d4;
+            --secondary: #7209b7;
+            --dark: #1a1a2e;
+            --darker: #0d0d1a;
+            --light: #f8f9fa;
+            --gray: #6c757d;
+            --transition: all 0.3s ease;
+            --shadow: 0 5px 15px rgba(0,0,0,0.1);
+            --radius: 12px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(135deg, var(--darker), var(--dark));
+            color: var(--light);
+            line-height: 1.6;
+            overflow-x: hidden;
+            background-attachment: fixed;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: rgba(26, 26, 46, 0.8);
+            backdrop-filter: blur(10px);
+            padding: 2rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo-icon {
+            background: var(--primary);
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .logo-text h1 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+
+        .logo-text p {
+            color: #a0a0c0;
+            font-size: 1rem;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+        }
+
+        .nav-link {
+            color: var(--light);
+            text-decoration: none;
+            font-weight: 500;
+            position: relative;
+            padding: 5px 0;
+            transition: var(--transition);
+        }
+
+        .nav-link:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--primary);
+            transition: var(--transition);
+        }
+
+        .nav-link:hover {
+            color: var(--primary);
+        }
+
+        .nav-link:hover:after {
+            width: 100%;
+        }
+
+        .hero {
+            padding: 5rem 0;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 3.5rem;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            font-weight: 800;
+        }
+
+        .hero p {
+            font-size: 1.4rem;
+            max-width: 800px;
+            margin: 0 auto 2.5rem;
+            color: #c0c0e0;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }
+
+        .contact-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: var(--radius);
+            padding: 15px 25px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            transition: var(--transition);
+            cursor: pointer;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .contact-card:hover {
+            background: rgba(67, 97, 238, 0.1);
+            transform: translateY(-5px);
+            box-shadow: var(--shadow);
+        }
+
+        .contact-icon {
+            font-size: 1.5rem;
+            color: var(--primary);
+        }
+
+        .section {
+            padding: 5rem 0;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            position: relative;
+            display: inline-block;
+        }
+
+        .section-title:after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background: var(--primary);
+            border-radius: 2px;
+        }
+
+        .section-subtitle {
+            color: #a0a0c0;
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .skills-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .skill-category {
+            background: rgba(26, 26, 46, 0.7);
+            border-radius: var(--radius);
+            padding: 30px;
+            box-shadow: var(--shadow);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: var(--transition);
+        }
+
+        .skill-category:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+            border-color: rgba(67, 97, 238, 0.3);
+        }
+
+        .skill-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .skill-icon {
+            width: 50px;
+            height: 50px;
+            background: rgba(67, 97, 238, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            color: var(--primary);
+        }
+
+        .skill-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        .skill-list {
+            list-style: none;
+        }
+
+        .skill-item {
+            padding: 12px 0;
+            border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .skill-item:last-child {
+            border-bottom: none;
+        }
+
+        .skill-level {
+            color: var(--primary);
+            font-weight: 600;
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 30px;
+        }
+
+        .project-card {
+            background: rgba(26, 26, 46, 0.7);
+            border-radius: var(--radius);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+            border-color: rgba(114, 9, 183, 0.3);
+        }
+
+        .project-header {
+            padding: 25px;
+            background: rgba(67, 97, 238, 0.05);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .project-type {
+            display: inline-block;
+            background: rgba(114, 9, 183, 0.2);
+            color: #c792ea;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+        }
+
+        .project-title {
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+        }
+
+        .project-content {
+            padding: 25px;
+        }
+
+        .project-description {
+            margin-bottom: 20px;
+            color: #c0c0e0;
+        }
+
+        .project-tech {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .tech-tag {
+            background: rgba(67, 97, 238, 0.1);
+            color: var(--primary);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+        }
+
+        .project-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            transition: var(--transition);
+        }
+
+        .project-link:hover {
+            color: #c792ea;
+            gap: 12px;
+        }
+
+        .timeline {
+            position: relative;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .timeline:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 4px;
+            background: var(--primary);
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .timeline-item {
+            display: flex;
+            margin-bottom: 50px;
+            position: relative;
+        }
+
+        .timeline-item:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        .timeline-content {
+            width: calc(50% - 40px);
+            padding: 25px;
+            background: rgba(26, 26, 46, 0.7);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .timeline-period {
+            color: var(--primary);
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .timeline-title {
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+        }
+
+        .timeline-description {
+            color: #c0c0e0;
+        }
+
+        .timeline-marker {
+            position: absolute;
+            top: 20px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: var(--primary);
+            border: 4px solid var(--dark);
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .education-item {
+            background: rgba(26, 26, 46, 0.7);
+            border-radius: var(--radius);
+            padding: 30px;
+            margin-bottom: 25px;
+            box-shadow: var(--shadow);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: var(--transition);
+        }
+
+        .education-item:hover {
+            transform: translateX(10px);
+            border-color: rgba(67, 97, 238, 0.3);
+        }
+
+        .education-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .education-title {
+            font-size: 1.3rem;
+            color: var(--primary);
+        }
+
+        .education-period {
+            background: rgba(114, 9, 183, 0.1);
+            color: #c792ea;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        .education-details {
+            color: #c0c0e0;
+            margin-bottom: 15px;
+        }
+
+        .education-achievement {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #a0a0c0;
+        }
+
+        .theme-toggle {
+            background: rgba(255, 255, 255, 0.1);
+            border: none;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--light);
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .theme-toggle:hover {
+            background: var(--primary);
+            transform: rotate(30deg);
+        }
+
+        footer {
+            background: rgba(13, 13, 26, 0.9);
+            padding: 3rem 0;
+            text-align: center;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            margin: 30px 0;
+        }
+
+        .social-link {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: rgba(67, 97, 238, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.3rem;
+            color: var(--light);
+            transition: var(--transition);
+            text-decoration: none;
+        }
+
+        .social-link:hover {
+            background: var(--primary);
+            transform: translateY(-5px);
+        }
+
+        .copyright {
+            color: #a0a0c0;
+            margin-top: 20px;
+        }
+
+        /* Анимации */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .animate {
+            animation: fadeIn 0.8s ease forwards;
+        }
+
+        .delay-1 { animation-delay: 0.1s; }
+        .delay-2 { animation-delay: 0.2s; }
+        .delay-3 { animation-delay: 0.3s; }
+        .delay-4 { animation-delay: 0.4s; }
+        .delay-5 { animation-delay: 0.5s; }
+
+        /* Адаптивность */
+        @media (max-width: 992px) {
+            .timeline:before { left: 30px; }
+            .timeline-item { flex-direction: row; }
+            .timeline-item:nth-child(even) { flex-direction: row; }
+            .timeline-content { width: calc(100% - 80px); margin-left: 80px; }
+            .timeline-marker { left: 30px; }
+        }
+
+        @media (max-width: 768px) {
+            .header-content { flex-direction: column; gap: 20px; }
+            .nav-links { flex-wrap: wrap; justify-content: center; }
+            .hero h2 { font-size: 2.5rem; }
+            .contact-info { flex-direction: column; align-items: center; }
+            .skills-container, .projects-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">GS</div>
+                    <div class="logo-text">
+                        <h1>Георгий Селиванов</h1>
+                        <p>Разработчик | Аналитик данных</p>
+                    </div>
+                </div>
+                <nav class="nav-links">
+                    <a href="#about" class="nav-link">Обо мне</a>
+                    <a href="#skills" class="nav-link">Навыки</a>
+                    <a href="#projects" class="nav-link">Проекты</a>
+                    <a href="#experience" class="nav-link">Опыт</a>
+                    <a href="#education" class="nav-link">Образование</a>
+                </nav>
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Разработчик и аналитик данных</h2>
+            <p>Студент кафедры компьютерных наук с практическим опытом в анализе данных, машинном обучении и разработке программного обеспечения</p>
+            
+            <div class="contact-info">
+                <div class="contact-card animate delay-1">
+                    <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <div>Иннополис, Россия</div>
+                </div>
+                <div class="contact-card animate delay-2">
+                    <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                    <div>+7 (915) 063-11-10</div>
+                </div>
+                <div class="contact-card animate delay-3">
+                    <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                    <div>selivanov.george05@gmail.com</div>
+                </div>
+                <div class="contact-card animate delay-4">
+                    <div class="contact-icon"><i class="fab fa-github"></i></div>
+                    <div>github.com/Ge-os</div>
+                </div>
+                <div class="contact-card animate delay-5">
+                    <div class="contact-icon"><i class="fab fa-telegram"></i></div>
+                    <div>@GE_OS</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Обо мне</h2>
+                <p class="section-subtitle">Студент второго курса кафедры компьютерных наук Университета Иннополиса с практическим опытом в анализе данных и автоматизации процессов</p>
+            </div>
+            <div class="about-content animate">
+                <p>Обладаю навыками в Python, SQL и инструментах визуализации данных, имею хорошую базу в статистике, машинном обучении и системах баз данных. Имею подтвержденную способность решать технические задачи: более 10 проектов, включая парсинг данных, интеграцию API и командную работу.</p>
+                <p>Мой опыт включает разработку систем анализа данных, создание автоматизированных инструментов обработки документов, участие в командных проектах по разработке ПО и работу аналитиком-разработчиком в коммерческих проектах.</p>
+                <p>Владею английским на уровне B2 (подтверждено сертификатом) и русским как родным.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section" style="background: rgba(13, 13, 26, 0.5);">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Ключевые навыки</h2>
+                <p class="section-subtitle">Технологии и компетенции, которыми я владею</p>
+            </div>
+            <div class="skills-container">
+                <div class="skill-category animate delay-1">
+                    <div class="skill-header">
+                        <div class="skill-icon"><i class="fab fa-python"></i></div>
+                        <h3 class="skill-title">Языки программирования</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li class="skill-item">
+                            <span>Python</span>
+                            <span class="skill-level">Высокий</span>
+                        </li>
+                        <li class="skill-item">
+                            <span>Java</span>
+                            <span class="skill-level">Средний</span>
+                        </li>
+                        <li class="skill-item">
+                            <span>SQL (PostgreSQL, MongoDB)</span>
+                            <span class="skill-level">Средний</span>
+                        </li>
+                        <li class="skill-item">
+                            <span>HTML, CSS, JavaScript</span>
+                            <span class="skill-level">Базовый</span>
+                        </li>
+                        <li class="skill-item">
+                            <span>C/C++</span>
+                            <span class="skill-level">Базовый</span>
+                        </li>
+                        <li class="skill-item">
+                            <span>Dart/Flutter</span>
+                            <span class="skill-level">Базовый</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="skill-category animate delay-2">
+                    <div class="skill-header">
+                        <div class="skill-icon"><i class="fas fa-cogs"></i></div>
+                        <h3 class="skill-title">Технологии и библиотеки</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li class="skill-item">
+                            <span>Pandas, NumPy (анализ данных)</span>
+                        </li>
+                        <li class="skill-item">
+                            <span>Selenium, Requests (автоматизация)</span>
+                        </li>
+                        <li class="skill-item">
+                            <span>Matplotlib, Plotly (визуализация)</span>
+                        </li>
+                        <li class="skill-item">
+                            <span>PyTorch, TensorFlow (ML/DL)</span>
+                        </li>
+                        <li class="skill-item">
+                            <span>Docker, Docker Compose</span>
+                        </li>
+                        <li class="skill-item">
+                            <span>Git, CI/CD</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="skill-category animate delay-3">
+                    <div class="skill-header">
+                        <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                        <h3 class="skill-title">Теоретические знания</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li class="skill-item">
+                            <span>ООП, SOLID, паттерны проектирования</span>
+                        </li>
+                        <li class="skill-item">
+                            <span>Машинное обучение и статистика</span>
+                        </li>
+                        <li class="skill-item">
+                            <span>Deep Learning, NLP, LLM</span>
+                        </li>
+                        <li class="skill-item">
+                            <span>Алгоритмы и оптимизация</span>
+                        </li>
+                        <li class="skill-item">
+                            <span>Архитектура ОС и сети</span>
+                        </li>
+                        <li class="skill-item">
+                            <span>Линейная алгебра, мат. анализ</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Технические проекты</h2>
+                <p class="section-subtitle">Мои ключевые проекты в области разработки и анализа данных</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card animate delay-1">
+                    <div class="project-header">
+                        <div class="project-type">Коммерческий проект</div>
+                        <h3 class="project-title">Pipeline для анализа данных</h3>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">Создание системы для сбора данных о сервисах с Яндекс Услуги и корреляция этих данных с метками РосСтата. Очистка и структурирование данных с использованием Pandas, визуализация трендов через Plotly/Seaborn для выявления паттернов спроса.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Selenium</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">API</span>
+                        </div>
+                        <a href="#" class="project-link">
+                            <span>Подробнее</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card animate delay-2">
+                    <div class="project-header">
+                        <div class="project-type">Собственный проект</div>
+                        <h3 class="project-title">Автоматизированные инструменты обработки документов</h3>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">Разработка конвертера PDF в LaTeX с использованием Google Gemini и переводчика PDF на основе Yandex OCR.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Tkinter</span>
+                            <span class="tech-tag">LLM</span>
+                            <span class="tech-tag">OCR</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Ge-os/to-latex" class="project-link" target="_blank">
+                                <span>PDF-to-LaTeX</span>
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="https://github.com/Ge-os/pdf-translator" class="project-link" target="_blank">
+                                <span>PDF Translator</span>
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card animate delay-3">
+                    <div class="project-header">
+                        <div class="project-type">Командный проект</div>
+                        <h3 class="project-title">RARS:Reborn</h3>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">Совместная разработка эмулятора RISC-V, реализация тестов и обработки ошибок.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Svelte</span>
+                            <span class="tech-tag">JUnit</span>
+                        </div>
+                        <a href="https://gitlab.pg.innopolis.university/rars-reborn/core" class="project-link" target="_blank">
+                            <span>Посмотреть проект</span>
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card animate delay-4">
+                    <div class="project-header">
+                        <div class="project-type">Командный проект</div>
+                        <h3 class="project-title">Fluently</h3>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">Исследование и сбор базы слов, подключение API LLM. Дочерний проект по созданию рекомендательной системы.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">Selenium</span>
+                            <span class="tech-tag">AI API</span>
+                            <span class="tech-tag">LLM</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/FluentlyOrg/Fluently-fork" class="project-link" target="_blank">
+                                <span>Основной проект</span>
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="https://github.com/0kr0/dls-project" class="project-link" target="_blank">
+                                <span>Рекомендательная система</span>
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section" style="background: rgba(13, 13, 26, 0.5);">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Опыт работы</h2>
+                <p class="section-subtitle">Мой профессиональный путь и достижения</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item animate delay-1">
+                    <div class="timeline-content">
+                        <div class="timeline-period">Июнь 2025 - Июль 2025</div>
+                        <h3 class="timeline-title">Аналитик-разработчик</h3>
+                        <p class="timeline-company">Thesaurus (дочерний проект Fluently)</p>
+                        <p class="timeline-description">Разработка рекомендательной системы на основе собранных в исследовании данных.</p>
+                    </div>
+                    <div class="timeline-marker"></div>
+                </div>
+
+                <div class="timeline-item animate delay-2">
+                    <div class="timeline-content">
+                        <div class="timeline-period">Июнь 2025 - Июль 2025</div>
+                        <h3 class="timeline-title">Аналитик-разработчик</h3>
+                        <p class="timeline-company">Fluently</p>
+                        <p class="timeline-description">Парсинг и работа с данными для проектирования и заполнения базы данных. Обработка естественного языка, система релевантности и RAG для заданий.</p>
+                    </div>
+                    <div class="timeline-marker"></div>
+                </div>
+
+                <div class="timeline-item animate delay-3">
+                    <div class="timeline-content">
+                        <div class="timeline-period">Январь 2025 - Февраль 2025</div>
+                        <h3 class="timeline-title">Аналитик-разработчик</h3>
+                        <p class="timeline-company">MRW Life (Удаленно)</p>
+                        <p class="timeline-description">Архитектура микросервисной системы для автоматизации рабочих процессов с медиа-контентом, проектируемой для уменьшения ручной работы. Парсинг и работа с данными.</p>
+                    </div>
+                    <div class="timeline-marker"></div>
+                </div>
+
+                <div class="timeline-item animate delay-4">
+                    <div class="timeline-content">
+                        <div class="timeline-period">Июнь 2024 - Июль 2024</div>
+                        <h3 class="timeline-title">QA/Тестировщик</h3>
+                        <p class="timeline-company">RARS Reborn</p>
+                        <p class="timeline-description">Разработка CI/CD пайплайна с использованием Git/Docker; документирование архитектуры системы.</p>
+                    </div>
+                    <div class="timeline-marker"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Образование</h2>
+                <p class="section-subtitle">Мой образовательный путь и достижения</p>
+            </div>
+            
+            <div class="education-item animate delay-1">
+                <div class="education-header">
+                    <h3 class="education-title">Бакалавриат по специальности «Компьютерные науки»</h3>
+                    <div class="education-period">2023 - 2027</div>
+                </div>
+                <p class="education-details">Университет Иннополис</p>
+                <p class="education-details">Пройденные курсы: Машинное обучение, Теория вероятностей и статистика, Базы данных (A/B), Распределенные системы, Оптимизация</p>
+            </div>
+            
+            <div class="education-item animate delay-2">
+                <div class="education-header">
+                    <h3 class="education-title">Программа дополнительного образования «Инструменты SMM для продвижения»</h3>
+                    <div class="education-period">2024 - 2025</div>
+                </div>
+                <p class="education-details">ИППК НГУ</p>
+                <p class="education-details">Образовательная программа длительностью 250 часов с итоговым проектом и защитой, закрытая на "отлично"</p>
+            </div>
+            
+            <div class="education-item animate delay-3">
+                <div class="education-header">
+                    <h3 class="education-title">Лицей №1568 (Москва)</h3>
+                    <div class="education-period">2012 - 2023</div>
+                </div>
+                <p class="education-achievement">
+                    <i class="fas fa-trophy"></i>
+                    <span>Победитель Региональной Всероссийской олимпиады по химии</span>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <h3>Георгий Селиванов</h3>
+            <p>Разработчик и аналитик данных</p>
+            
+            <div class="social-links">
+                <a href="https://github.com/Ge-os" class="social-link" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://t.me/ge_os" class="social-link" target="_blank">
+                    <i class="fab fa-telegram"></i>
+                </a>
+                <a href="mailto:selivanov.george05@gmail.com" class="social-link">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://www.linkedin.com/" class="social-link">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+            
+            <p class="copyright">© 2025 Георгий Селиванов. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Переключение темы
+        const themeToggle = document.getElementById('themeToggle');
+        const body = document.body;
+        
+        themeToggle.addEventListener('click', () => {
+            body.classList.toggle('light-theme');
+            const icon = themeToggle.querySelector('i');
+            if (body.classList.contains('light-theme')) {
+                icon.classList.remove('fa-moon');
+                icon.classList.add('fa-sun');
+                body.style.background = '#f0f2f5';
+            } else {
+                icon.classList.remove('fa-sun');
+                icon.classList.add('fa-moon');
+                body.style.background = 'linear-gradient(135deg, var(--darker), var(--dark))';
+            }
+        });
+        
+        // Плавная прокрутка
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    window.scrollTo({
+                        top: target.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // Анимация при скролле
+        const observerOptions = {
+            threshold: 0.1
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate');
+                }
+            });
+        }, observerOptions);
+        
+        document.querySelectorAll('.animate').forEach(el => {
+            observer.observe(el);
+        });
+        
+        // Копирование контактной информации
+        const contactCards = document.querySelectorAll('.contact-card');
+        contactCards.forEach(card => {
+            card.addEventListener('click', function() {
+                const text = this.textContent || this.innerText;
+                navigator.clipboard.writeText(text.trim()).then(() => {
+                    const original = this.innerHTML;
+                    this.innerHTML = '<i class="fas fa-check"></i> Скопировано!';
+                    setTimeout(() => {
+                        this.innerHTML = original;
+                    }, 2000);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
