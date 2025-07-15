@@ -1,16 +1,47 @@
-## Hi there 👋
+### 👋 Привет! Я Георгий Селиванов
+**Студент Иннополиса | Python-разработчик | Аналитик данных**
 
-<!--
-**Ge-os/Ge-os** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```mermaid
+graph LR
+    A[Python] --> B[Анализ данных]
+    A --> C[Автоматизация]
+    A --> D[Машинное обучение]
+    D --> E[LLM & NLP]
+    F[Базы данных] --> G[PostgreSQL]
+    F --> H[Neo4j]
+    I[DevOps] --> J[Docker]
+    I --> K[CI/CD]
+```
 
-Here are some ideas to get you started:
+### 🛠️ Технический стек
+**Языки:**  
+🐍 Python (Pro) | ☕ Java | 📊 SQL | 📱 Dart  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**Технологии:**  
+- **ML/Data Science**: PyTorch, Scikit-learn, Pandas, OpenCV  
+- **Инфраструктура**: Docker, GitLab CI/CD, Bash  
+- **Базы данных**: PostgreSQL, MongoDB, Neo4j  
+- **Web**: Selenium, Requests, FastAPI  
+
+### 🚀 Ключевые проекты
+| Проект | Технологии | Описание |
+|--------|------------|----------|
+| [**PDF-to-LaTeX**](https://github.com/Ge-os/to-latex) | Gemini API | Конвертация PDF в LaTeX с ИИ |
+| [**TorrentInno**](https://github.com/TorrentInnoOrg/TorrentInno) | Python, KivyMD | Кроссплатформенный Torrent-клиент |
+| [**Fluently**](https://github.com/FluentlyOrg/Fluently-fork) | LLM, RAG | Платформа для изучения языков с ИИ |
+| [**CookieLess**](https://cookielessorg.github.io/CookieLess) | Pandas, JS | Аналитика без cookies |
+
+### 🎓 Образование
+**Университет Иннополис**  
+📅 2023-2027 | Компьютерные науки  
+- Курсы: ML, Распределенные системы, Оптимизация  
+
+**Школа аналитиков Яндекс**  
+🥇 Летний интенсив 2025 | Фуллстек-проект  
+
+### 📬 Контакты
+[![Telegram](https://img.shields.io/badge/-Telegram-0088cc?style=flat&logo=telegram)](https://t.me/ge_os)
+[![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail)](mailto:selivanov.george05@gmail.com)
+[![CV](https://img.shields.io/badge/-Резюме-4285F4?style=flat&logo=read-the-docs)](https://ge-os.github.io/Ge-os/)
+
+---

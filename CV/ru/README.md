@@ -1,6 +1,6 @@
 # Георгий Селиванов 
 
-([*english version of this CV*](https://github.com/Ge-os/Ge-os/tree/main/CV/en))
+[*english version of this CV*](https://github.com/Ge-os/Ge-os/tree/main/CV/en) | [*Cайт-визитка*](https://ge-os.github.io/Ge-os/)
 
 ### 🌏 Иннополис, Россия  
 
