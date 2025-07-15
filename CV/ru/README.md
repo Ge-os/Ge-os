@@ -67,6 +67,12 @@
 [**Flanner Health App**](https://github.com/Woolfer0097/Flanner) | Flutter, Firebase *(2024)*  
 - Руководство разработкой калькуляторов для расчета калорий и тренировок  
 
+[**CookieLess**](https://github.com/CookieLessOrg/CookieLess) | Pandas, Requests *(2025)*
+- Веб утилита для сбора информации о пользователе, заходящем на страницу. [Демо](cookielessorg.github.io/CookieLess/) доступно онлайн
+
+[**TorrentInno**](https://github.com/TorrentInnoOrg/TorrentInno) | Python, KivyMD *(2025)*
+- Создание кастомного кроссплатформенного GUI на KivyMD
+
 [**Fluently**](https://github.com/FluentlyOrg/Fluently-fork) | Pandas, Selenium, AI API *(2025)*
 - [Исследование и сбор](https://github.com/FluentlyOrg/Fluently-fork/blob/main/analysis/thesaurus/thesaurus.ipynb) базы слов, подключение API LLM
 * [Дочерний проект](https://github.com/0kr0/dls-project) по созданию рекомендательной системы
@@ -89,6 +95,7 @@
 - Решение судоку  
 
 [**Реализация алгоритмов и структур данных**](https://codeforces.com/group/ejNIMWx4fO/contests) | Java  
+- Задачи охватывают фундаментальные и продвинутые алгоритмические методы и структуры данных с асимптотической нотацией, методы хеширования, рекурсию, динамическое программирование, сортировки, деревья, очереди и кучи, графы, алгоритмы кратчайшего пути, сети потоков
 
 ## **Опыт работы**  
 
@@ -119,7 +126,11 @@
 ## **Образование**  
 ### **Бакалавриат по специальности «Компьютерные науки»**  
 *Университет Иннополис* | 2023 - 2027 (Ожидаемая дата окончания)  
-- Пройденные курсы: Машинное обучение, Теория вероятностей и статистика, Базы данных (A/B), Распределенные системы, Оптимизация  
+- Пройденные курсы: Машинное обучение, Теория вероятностей и статистика, Базы данных (A/B), Распределенные системы, Оптимизация 
+
+### Школа Аналитиков-Разработчиков Яндекс
+*Яндекс* | июнь-август 2025 
+* Создание проекта "Симулятор техническог интервью Python" в фуллстек команде в роли аналитика
 
 ### [**Дополнительное профессиональнное образование «Инструменты SMM для продвижения»**]()
 
@@ -132,5 +143,18 @@
 ## **Сертификаты и курсы**  
 - [Основы AutoCAD (МИСиС, 2022)](https://drive.google.com/file/d/12CpL0B3g_4y7FbaNlWmgH0ic7x241MrC)  
 - [Тренировка по Алгоритмам 7.0 (Яндекс, 2025)](https://certify.s3.yandex.net/young-yandex/8c08e3d8-ba3c-483f-ac56-eb61618d4abb/69751ef9-4633-4173-8b09-8cc321ef79b9.pdf)
+
+## **Мероприятия**
+### **Хакатоны и олимпиады**
+*<h6>пока что только пробую себя)</h6>*
+- [IT_ONE Cup. ML Challenge (участник)](https://drive.google.com/file/d/1AyIcUanIKA3ubvf_Z1Q7mWZKvxuzCLZs/view?usp=sharing)
+- [TechArena Kazan (участник)](https://drive.google.com/file/d/1sMahzP3g3ta3PTo7m3VKw9NXfFRhe_3b/view)
+- [DatsPulse (участник)](https://gamethon.datsteam.dev/datspulse?utm_source=devteamgames#presents:~:text=ROOT%400.0.0.0%3A%20CHMOD%20%2BX%20DREAMS)
+- [интенсив-хакатон от компании Юрент (участник)](https://docs.google.com/presentation/d/1ggrpr5UTxuV05lvulhiSt6HH_ct5pu3k-7ea6tT1csU)
+
+### **Конференции**
+- [YoungСon 2025 (участник)](https://drive.google.com/file/d/1sjxXsiGBYbLJzYkmvFvNRXLuIGNj0XDg)
+- [Форум "Взлёт" (участник)](https://drive.google.com/file/d/17VyxzN8elRU-TfkZ0HqQFJ90KTOmo2oV)
+- [Форум Merge Иннополис (участник)](https://drive.google.com/file/d/1Ll2NQpezfFtVknTucu9T30kYAJkEcjIq)
 
 **Подтверждения и примеры кода доступны по запросу.**
