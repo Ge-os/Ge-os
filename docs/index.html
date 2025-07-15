@@ -73,6 +73,8 @@
             background-image: url("avatar.jpg");
             background-size: cover;
             background-position: center;
+            flex-shrink: 0;
+            aspect-ratio: 1/1;
         }
 
         .logo-text h1 {
@@ -614,13 +616,35 @@
             .timeline-content { width: calc(100% - 80px); margin-left: 80px; }
             .timeline-marker { left: 30px; }
         }
-
         @media (max-width: 768px) {
-            .header-content { 
-                flex-wrap: wrap;
-                gap: 15px;
+            .avatar {
+                width: 60px;
+                height: 60px;
+            }
+            .header-content {
+                flex-wrap: nowrap;
+                position: relative;
+                padding-right: 60px;
             }
             
+            .mobile-menu-btn {
+                position: absolute;
+                top: 20px;
+                right: 0;
+                z-index: 1001;
+            }
+            
+            .logo {
+                max-width: calc(100% - 70px);
+            }
+            .nav-menu {
+                padding-top: 120px;
+            }
+            
+            .mobile-menu-close {
+                top: 30px;
+                right: 30px;
+            }
             .nav-menu {
                 display: none;
                 flex-direction: column;
@@ -640,10 +664,6 @@
             .nav-menu.active {
                 display: flex;
                 transform: translateX(0);
-            }
-            
-            .mobile-menu-btn {
-                display: block;
             }
             
             .mobile-menu-close {
@@ -1244,6 +1264,18 @@
                 menuIcon.classList.remove('fa-times');
                 menuIcon.classList.add('fa-bars');
             }
+        // Улучшенное управление мобильным меню
+        mobileMenuBtn.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+        menuIcon.classList.toggle('fa-bars');
+        menuIcon.classList.toggle('fa-times');
+        });
+
+        mobileMenuClose.addEventListener('click', () => {
+        navMenu.classList.remove('active');
+        menuIcon.classList.remove('fa-times');
+        menuIcon.classList.add('fa-bars');
+        });
         });
     </script>
 </body>
