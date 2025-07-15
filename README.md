@@ -2,6 +2,8 @@
 
 ![Python-разработчик](https://img.shields.io/badge/Python_developer-a1ff00)
 ![Аналитик данных](https://img.shields.io/badge/Аналитик_данных-0050ff)
+
+
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%3F4CD817&lines=Innopolis+university+student)](https://git.io/typing-svg)
 
 ```mermaid
