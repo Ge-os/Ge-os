@@ -4,9 +4,9 @@
 
 ### 🌏 Иннополис, Россия  
 
-### ☎️ +7 (915) 063-11-10  
+### ☎️ +7 (930) 920-73-47 | +7 (915) 063-11-10
 
-### ✉️ selivanov.george05@gmail.com  
+### ✉️ selivanov.george05@gmail.com | selivanov.george05@yandex.ru
 
 ### GitHub: [@GE-OS](https://github.com/Ge-os) | Telegram [@GE_OS](https://t.me/ge_os)
 
@@ -128,11 +128,11 @@
 *Университет Иннополис* | 2023 - 2027 (Ожидаемая дата окончания)  
 - Пройденные курсы: Машинное обучение, Теория вероятностей и статистика, Базы данных (A/B), Распределенные системы, Оптимизация 
 
-### Школа Аналитиков-Разработчиков Яндекс
+### [**Школа Аналитиков-Разработчиков Яндекс**](https://drive.google.com/file/d/1fcvSv99KLJbATnPTYYbJ2cHImtGxeZUZ/)
 *Яндекс* | июнь-август 2025 
 * Создание проекта "Симулятор техническог интервью Python" в фуллстек команде в роли аналитика
 
-### [**Дополнительное профессиональнное образование «Инструменты SMM для продвижения»**]()
+### [**Дополнительное профессиональнное образование «Инструменты SMM для продвижения»**](https://drive.google.com/file/d/11PANyqgBkC_eO6zRC2v7Nq8r3I-ykZDs/)
 
 *ИППК НГУ* | 2024 - 2025
 * Образовательная рограмма длительностью в 250 часов с итоговым проектом и защитой, закрытая на "отлично"
@@ -141,16 +141,18 @@
 - Победитель Региональной Всероссийской олимпиады по химии  
 
 ## **Сертификаты и курсы**  
-- [Основы AutoCAD (МИСиС, 2022)](https://drive.google.com/file/d/12CpL0B3g_4y7FbaNlWmgH0ic7x241MrC)  
 - [Тренировка по Алгоритмам 7.0 (Яндекс, 2025)](https://certify.s3.yandex.net/young-yandex/8c08e3d8-ba3c-483f-ac56-eb61618d4abb/69751ef9-4633-4173-8b09-8cc321ef79b9.pdf)
+- [Интенсив Школы анализа данных A/B Week](https://drive.google.com/file/d/1lTG9BFyf0_-Xv8hAJ-nWmVKmUlXVcokr/)
+- [IT-Сеанс: летняя школа по аналитике, DS и DE (ФКН ВШЭ)](https://drive.google.com/file/d/18ncbsuQiI1w1j_sBsut1gQb2Q70rYX3i)
+- [Основы AutoCAD (МИСиС, 2022)](https://drive.google.com/file/d/12CpL0B3g_4y7FbaNlWmgH0ic7x241MrC)  
 
 ## **Мероприятия**
 ### **Хакатоны и олимпиады**
 *<h6>пока что только пробую себя)</h6>*
 - [IT_ONE Cup. ML Challenge (участник)](https://drive.google.com/file/d/1AyIcUanIKA3ubvf_Z1Q7mWZKvxuzCLZs/view?usp=sharing)
 - [TechArena Kazan (участник)](https://drive.google.com/file/d/1sMahzP3g3ta3PTo7m3VKw9NXfFRhe_3b/view)
-- [DatsPulse (участник)](https://gamethon.datsteam.dev/datspulse?utm_source=devteamgames#presents:~:text=ROOT%400.0.0.0%3A%20CHMOD%20%2BX%20DREAMS)
-- [интенсив-хакатон от компании Юрент (участник)](https://docs.google.com/presentation/d/1ggrpr5UTxuV05lvulhiSt6HH_ct5pu3k-7ea6tT1csU)
+- [DatsPulse (участник)](https://drive.google.com/file/d/1Q3p8KrGsDxLcmi77WEW9yeSrHN3Whfw7/view?usp=sharing), [лидерборд](https://gamethon.datsteam.dev/datspulse?utm_source=devteamgames#presents:~:text=ROOT%400.0.0.0%3A%20CHMOD%20%2BX%20DREAMS)
+- [Интенсив-хакатон от компании Юрент (участник)](https://docs.google.com/presentation/d/1ggrpr5UTxuV05lvulhiSt6HH_ct5pu3k-7ea6tT1csU)
 
 ### **Конференции**
 - [YoungСon 2025 (участник)](https://drive.google.com/file/d/1sjxXsiGBYbLJzYkmvFvNRXLuIGNj0XDg)
