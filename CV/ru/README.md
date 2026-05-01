@@ -12,27 +12,29 @@
 
 
 ## **Краткое резюме**  
-Студент второго курса кафедры компьютерных наук Университета Иннополиса с практическим опытом в анализе данных и автоматизации процессов. Обладаю навыками в Python, SQL и инструментах визуализации данных, имею хорошую базу в статистике, машинном обучении и системах баз данных. Имею подтвержденную способность решать технические задачи: более 10 проектов, включая парсинг данных, интеграцию API и командную работу.
+ML-инженер МТС Веб Сервисы, студент третьего курса кафедры компьютерных наук Университета Иннополиса с практическим опытом в анализе данных, построении агентных систем и автоматизации процессов. Обладаю навыками в Python, SQL и инструментах визуализации данных, имею хорошую базу в статистике, машинном обучении и системах баз данных. Имею подтвержденную способность решать технические задачи: более 10 проектов, включая парсинг данных, интеграцию API и командную работу.
 
 ## **Ключевые навыки**  
 ### **Языки программирования и библиотеки:**  
-- Python (Высокий уровень)
+- Python
     - **Анализ данных**: Pandas, NumPy
-    - **Автоматизация**: Selenium, Requests, Bs4, lxml  
+    - **Автоматизация**: Selenium, Requests, Bs4, lxml, pytest
     - **Визуализация**: Matplotlib, Plotly, Seaborn  
-    - **Машинное обучение**: PyTorch, Scipy, Sklearn, Tensorflow, Keras, Cv2, Tqdm, Mlxtend  
-    - Сокетное программирование, брокеры сообщений, gRPC  
+    - **Предобработка**: LlamaIndex, opendataloader, pytesseract, EasyOCR, GLM-OCR
+    - **LLM инференс, агенты и RAG**: ollama, llama.cpp, vLLM, weaviate, langchain, openai, MCP, A2A
+    - **Трансформеры**: PEFT(LoRA, Soft prompts), Quantization, Transformers, Diffusers
+    - **Машинное обучение**: PyTorch, Scipy, Sklearn, NLTK, JAX
     - Многозадачность, multiprocessing, asyncio  
-- Java (Средний уровень)  
-- Базы данных (Средний уровень)  
+- Java  
+- Базы данных  
+    - Weaviate
     - PostgreSQL  
     - MongoDB  
-    - Neo4j  
-    - PgVector  
-- STATA (Базовый уровень)  
-- Flutter и Dart (Базовый уровень)  
-- HTML, CSS, JS (Базовый уровень)  
-- C/C++ (Базовый уровень)  
+    - Neo4j 
+- STATA   
+- Flutter и Dart  
+- HTML, CSS, JS  
+- C/C++  
 ### **DevOps и SRE:**  
 - Docker, Docker Compose  
 - Git/GitHub/GitLab, CI/CD  
@@ -41,9 +43,10 @@
 - ООП, SOLID, паттерны программирования
 - Методологии управления проектами (Waterfall, Agile, Scrum...)
 - Машинное обучение и статистика
-- Deep learning, NLP, трансформеры, LLM и Prompt Engineering  
-- Архитектура компьютера, операционных систем и сети Интернет
-- Алгоритмы и оптимизация
+- Deep learning, NLP, трансформеры, диффузеры, LLM и Prompt Engineering  
+- Архитектура компьютерных и операционных систем
+- Сетевые протоколы, OSI
+- Алгоритмы и структуры данных 
 - Аналитическая геометрия и линейная алгебра  
 - Дифференциальные уравнения и математический анализ  
 ### **Языки:**  
@@ -61,6 +64,21 @@
 - [PDF переводчик](https://github.com/Ge-os/pdf-translator) на основе Yandex OCR  
 
 ### **Командные проекты**  
+
+**MedCopilot** | Python, Ollama, Quadrant, FHIR *(2026)*
+- Многофункциональный RAG агент для медицинского персонала, интегрированный с EHR системами через FHIR, предоставляющий поддержку в клинических решениях и автоматизации документации. Подддерживает TTS с рекомендациями в реальном времени, глубокий анализ транскрипций и генерацию отчетов. 
+
+**CodeVision (MWS)** | Python, Torch, Transformers *(2026)*
+- преобразование программного кода в 2D-матрицы логарифмических вероятностей токенов, с сохранением пространственной структуры, и классифиция результата с помощью Vision Transformer (ViT) и ResNet. На базе одноименного [исследования](https://arxiv.org/html/2501.03288v1)
+
+**Генеративный дизайнер рекламных баннеров** | Python, Torch, Gradio *(2025-2026, хакатон MTA)*
+- Сервис для генерации изображений на базе Z-Image c русским текстом: 
+
+    `Gradio фронтенд -> мультиагентная система на Gigachat -> EasyOCR -> SAM -> LaMA -> наложение текста pillow`
+
+**DeDust-AI (MWS)** | Python, LangChain, Weaviate *(2025-2026)*
+- Разработка микросервисной архитектуры агентной системы с ретривом
+
 [**RARS:Reborn**](https://gitlab.pg.innopolis.university/rars-reborn/core) | Java, Svelte, JUnit *(2024)*  
 - Совместная разработка эмулятора RISC-V, реализация тестов и обработки ошибок  
 
@@ -79,6 +97,11 @@
 
 
 ### **Учебные проекты**  
+
+[**Агент для сбора самых качественных статей с Wikipedia | Python**](https://www.kaggle.com/competitions/information-retrieval-agent-2025)
+
+[**Компилятор динамического языка программирования D | Java**](https://github.com/team-806/javdin)
+
 **Методы Рунге-Кутты (явные)** | Python  
 
 **Аналитическая геометрия и линейная алгебра** | C++  
@@ -99,9 +122,14 @@
 
 ## **Опыт работы**  
 
+**ML-инженер**  
+*МТС Веб Сервисы* | 2025 - текущий момент
+- RAG агентная система для продукта на проникновение и проверку на наличие уязвимостей
+- CodeVision 
+
 **Аналитик-разработчик**  
 *Yandex* | 2025
-- Разработка проекта для симуляции собеседований на вакансии с требованием Python
+- Разработка проекта для симуляции собеседований на вакансии с требованием Python в Школе Аналитиков-Разработчиков
 
 **Аналитик-разработчик**  
 *Thesaurus* | 2025
@@ -126,7 +154,11 @@
 ## **Образование**  
 ### **Бакалавриат по специальности «Компьютерные науки»**  
 *Университет Иннополис* | 2023 - 2027 (Ожидаемая дата окончания)  
-- Пройденные курсы: Машинное обучение, Теория вероятностей и статистика, Базы данных (A/B), Распределенные системы, Оптимизация 
+- Пройденные курсы: Машинное обучение, Теория вероятностей и статистика, Базы данных, Распределенные системы, Оптимизация 
+
+### **Курсы VK Education**
+*VK* | февраль-май 2026 
+* Два курса: углубленные рекомендальные системы и углубленный NLP 
 
 ### [**Школа Аналитиков-Разработчиков Яндекс**](https://drive.google.com/file/d/1fcvSv99KLJbATnPTYYbJ2cHImtGxeZUZ/)
 *Яндекс* | июнь-август 2025 
@@ -141,6 +173,7 @@
 - [Призер регионального этапа Всеросийской Олимпиады Школьников по химии](https://drive.google.com/file/d/1mkptVmiIfiWXigovJPGpWWmykqt1Pdmy)
 
 ## **Сертификаты и курсы**  
+- [Тренировки. ML‐забег (Яндекс, 2025)](https://drive.google.com/file/d/1yk2NZYsafNxhRx6BRDz8DE05OHfDX6yg/view)
 - [Тренировка по Алгоритмам 7.0 (Яндекс, 2025)](https://certify.s3.yandex.net/young-yandex/8c08e3d8-ba3c-483f-ac56-eb61618d4abb/69751ef9-4633-4173-8b09-8cc321ef79b9.pdf)
 - [Интенсив Школы анализа данных A/B Week](https://drive.google.com/file/d/1lTG9BFyf0_-Xv8hAJ-nWmVKmUlXVcokr/)
 - [IT-Сеанс: летняя школа по аналитике, DS и DE (ФКН ВШЭ)](https://drive.google.com/file/d/18ncbsuQiI1w1j_sBsut1gQb2Q70rYX3i)
@@ -148,10 +181,20 @@
 
 ## **Мероприятия**
 ### **Хакатоны и олимпиады**
-*<h6>пока что только пробую себя)</h6>*
+- [DatsSol (участник, 135/408)](https://drive.google.com/file/d/1n-wqcg-QjSA_FZ55ZH0fI_tto0Ukvqco/view)
+- [Код Спорта (участник)](https://drive.google.com/file/d/1L21Z0ev_ytrAKt0yK4_ZvbgiDcjC6xnV/view)
+- [МТС True Tech Hack 2026 (55 место)](https://drive.google.com/file/d/1l9K8QqWnFK5uaaQ1rjLNBdB7V7zS-6vo/view)
+- [Gaica Game AI Contest Arena (17 место)](https://gaica.online/rating/)
+- [Changellenge >> Cup IT 2026 (участник)](https://drive.google.com/file/d/19ICfKPwcRy6heSI81_HIxa5MBnCkvpnI/view)
+- [Masters of Telegram Ads хакатон](https://drive.google.com/file/d/16FdwQfdZN6enetMHCi06SQdM1IelO7qo/view) (участник, [5 место](https://drive.google.com/file/d/11k6aG1DOJmkRBIEEIjzS1QK3kxRml5gP/))
+- [Hack & Change by Changellenge **(призёр, 3 место)**](https://drive.google.com/file/d/1QD9Sx-Z1U4e4Ud0Ewdl5mGTv8t7fT-dv/view)
+- [AI DevTools Hack трек "TestOps Copilot" (участник)](https://drive.google.com/file/d/11Idha-5pgOgKVAFzfK6ZxcLftJX0ehUh/view)
+- [DatsJingleBang (участник, 84/443)](https://drive.google.com/file/d/1bFlDpe2yiHQEPKq0ShA70Kt-YTDDGX6D/view)
+- [Разработка чат-ботов и мини-приложений для мессенджера MAX (участник)](https://drive.google.com/file/d/1ESRxuljAAvlAx1irwgkIPOdZ3RK1QIGi/view?usp=drive_link)
 - [IT_ONE Cup. ML Challenge (участник)](https://drive.google.com/file/d/1AyIcUanIKA3ubvf_Z1Q7mWZKvxuzCLZs/view?usp=sharing)
+- [Хакатон от Островка](https://drive.google.com/file/d/1CxBq8WUkIIotih_IwlQQOkeffLUBD0YE/view)
 - [TechArena Kazan (участник)](https://drive.google.com/file/d/1sMahzP3g3ta3PTo7m3VKw9NXfFRhe_3b/view)
-- [DatsPulse (участник)](https://drive.google.com/file/d/1Q3p8KrGsDxLcmi77WEW9yeSrHN3Whfw7/view?usp=sharing), [лидерборд](https://gamethon.datsteam.dev/datspulse?utm_source=devteamgames#presents:~:text=ROOT%400.0.0.0%3A%20CHMOD%20%2BX%20DREAMS)
+- [DatsPulse (участник, 76/533)](https://drive.google.com/file/d/1Q3p8KrGsDxLcmi77WEW9yeSrHN3Whfw7/view?usp=sharing), [лидерборд](https://gamethon.datsteam.dev/datspulse?utm_source=devteamgames#presents:~:text=ROOT%400.0.0.0%3A%20CHMOD%20%2BX%20DREAMS)
 - [Интенсив-хакатон от компании Юрент (участник)](https://docs.google.com/presentation/d/1ggrpr5UTxuV05lvulhiSt6HH_ct5pu3k-7ea6tT1csU)
 
 ### **Конференции**
