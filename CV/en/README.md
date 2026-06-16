@@ -196,7 +196,7 @@ ML Engineer with experience in developing, building, and deploying production LL
 - [Prize winner of the regional stage of the All-Russian Olympiad in Chemistry](https://drive.google.com/file/d/1mkptVmiIfiWXigovJPGpWWmykqt1Pdmy)
 
 ## **Certificates and Courses**
-- Data Dojo Training (Yandex, 2026)
+- [Data Dojo Training (Yandex, 2026)](https://drive.google.com/file/d/1axhqLfuJscP07UOOmwSPUEoteSZMllMW)
 - [ML Sprint Training (Yandex, 2025)](https://drive.google.com/file/d/1yk2NZYsafNxhRx6BRDz8DE05OHfDX6yg/view)
 - [Algorithms Training 7.0 (Yandex, 2025)](https://certify.s3.yandex.net/young-yandex/8c08e3d8-ba3c-483f-ac56-eb61618d4abb/69751ef9-4633-4173-8b09-8cc321ef79b9.pdf)
 - [Intensive of the School of Data Analysis A/B Week](https://drive.google.com/file/d/1lTG9BFyf0_-Xv8hAJ-nWmVKmUlXVcokr/)

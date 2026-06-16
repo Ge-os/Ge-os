@@ -196,7 +196,7 @@ ML-инженер c опытом в разработке, создании и р
 - [Призер регионального этапа Всеросийской Олимпиады Школьников по химии](https://drive.google.com/file/d/1mkptVmiIfiWXigovJPGpWWmykqt1Pdmy)
 
 ## **Сертификаты и курсы**  
-- Тренировки Data Dojo (Яндекс, 2026)
+- [Тренировки Data Dojo (Яндекс, 2026)](https://drive.google.com/file/d/1axhqLfuJscP07UOOmwSPUEoteSZMllMW)
 - [Тренировки. ML‐забег (Яндекс, 2025)](https://drive.google.com/file/d/1yk2NZYsafNxhRx6BRDz8DE05OHfDX6yg/view)
 - [Тренировка по Алгоритмам 7.0 (Яндекс, 2025)](https://certify.s3.yandex.net/young-yandex/8c08e3d8-ba3c-483f-ac56-eb61618d4abb/69751ef9-4633-4173-8b09-8cc321ef79b9.pdf)
 - [Интенсив Школы анализа данных A/B Week](https://drive.google.com/file/d/1lTG9BFyf0_-Xv8hAJ-nWmVKmUlXVcokr/)
